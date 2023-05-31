@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivam Kumar Jha</title>
+<link rel="apple-touch-icon" sizes="180x180" href="./docs/assets/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="./docs/assets/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="./docs/assets/img/favicon.ico">
+<link rel="manifest" href="./docs/assets/img/favicon.ico">
+
+
+  <link rel="stylesheet" href="./css/style1.css" />
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- box-icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- box-icons -->
+</head>
+
+<body>
+  <div class="nav-wrapper">
+    <nav id="nav-menu">
+      <h2><a id="logo" href="">
+          < Shivam />
+        </a></h2>
+      <ul id="sidemenu">
+        <li><a class="nav-link home" href="#home">Home</a></li>
+        <li><a class="nav-link about" href="#about">About Me</a></li>
+        <li><a class="nav-link skills" href="#skills">Skills</a></li>
+        <li><a class="nav-link projects" href="#projects">Project</a></li>
+
+        <li><a class="nav-link contact" href="#contact">Contact</a></li>
+        <li>
+        <li>
+          <!-- <a id="resume-link-1" class="nav-link resume" target="_blank" download="resume"  href="./docs/assets/img/Ashish_Tripathy_Resume.pdf">Resume</a> -->
+          <button id="resume-button-1" onclick="resume()" class="nav-link resume btn btn2">
+            <a id="resume-link-1" download href="./docs/assets/img/Shivam_Jha_Resume.pdf" target="_blank">Resume</a>
+          </button>
+          </a>
+        </li>
+        </li>
+        <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
+      </ul>
+      <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+    </nav>
+  </div>
+  <div id="header">
+    <div id="home" class="container">
+      <div id="resume-d" class="header-text">
+        <h3>Hello, It's Me</h3>
+        <h1 id="user-detail-name">Shivam Kumar Jha</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p id="user-detail-intro">A results-driven Java backend developer with aproven ability <br> to design and
+          implement
+          scalable
+          applications.</p>
+        <button id="resume-button-2" onclick="resume2()" class="nav-link resume btn btn2">
+          <a id="resume-link-2" href="./docs/assets/img/Shivam_Jha_Resume.pdf" target="_blank" download>Resume</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="about section" id="about">
+    <div class="container">
+      <h1 class="sub-title">About <span>Me</span></h1>
+      <div class="row">
+        <div class="about-col-1">
+          <img class="home-img" src="./docs/assets/img/WhatsApp Image 2023-02-28 at 15.59.01.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          
+          <p id="user-detail-intro">
+            Hello, my name is Shivam Kumar Jha, I am a java backend developer from Madhubani, Bihar. I am proficient in
+            Java and
+            have a strong command of frameworks like Spring and Hibernate. Additionally, I have expertise in developing
+            RESTful APIs and working with various databases.
+            During my studies, I had the opportunity to work on various projects that helped me develop hands-on
+            experience in Java programming.
+            I am actively seeking opportunities to kickstart my career and contribute to a team where I can learn from
+            experienced professionals while applying my skills and knowledge. If you have any opportunities or projects
+            where a motivated and dedicated fresher like myself would be a valuable addition, I would be delighted to
+            connect and discuss further.
+
+            Thank you for considering my profile, and I look forward to hearing from you.
+          </p>
+          <div class="social-media">
+            <a target="_blank" href="https://github.com/Shivam6209"><i class='bx bxl-github'></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/shivam-kumar-jha-004633258/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+          <div class="tab-titles">
+            <p class="tab-links"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Skills -->
+  <div id="skills">
+    <div class="container">
+      <h1 class="skill-title sub-title"><span>S</span>kills</h1>
+      <div class="skill-wrapper">
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/javascript-39404.png" alt="" />
+          <h2 class="skills-card-name">Javascript</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/html.png" alt="" />
+          <h2 class="skills-card-name">HTML5</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/css.png" alt="" />
+          <h2 class="skills-card-name">CSS3</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/java-logo-1.png" alt="" />
+          <h2 class="skills-card-name">Java</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/sql.png" alt="" />
+          <h2 class="skills-card-name">MySQL</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/hibernate.png" alt="" />
+          <h2 class="skills-card-name">Hibernate</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/1614302.png" alt="" />
+          <h2 class="skills-card-name">Spring</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/1614368.png" alt="" />
+          <h2 class="skills-card-name">Spring Boot</h2>
+        </div>
+
+
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/GitHub-Mark.png" alt="" />
+          <h2 class="skills-card-name">GitHub</h2>
+        </div>
+        <div class="skills-card">
+          <img class="skills-card-img" src="./docs/assets/img/github.png" alt="" />
+          <h2 class="skills-card-name">Git</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="github-content container">
+    <h1 class="sub-title">Github <span>Stats</span></h1>
+    <p id="">
+      <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivam6209"
+        alt="Shivam6209" />
+    </p>
+    <div class="github3">
+      <p>
+        &nbsp;<img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Shivam6209"
+          alt="Shivam6209" />
+      </p>
+      <p>
+        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Shivam6209"
+          alt="Shivam6209" />
+      </p>
+    </div>
+    <div class="github-content-wrapper">
+      <div class="calendar react-activity-calendar">
+        Loading stuff Loading the data just for you.
+      </div>
+    </div>
+  </div>
+  <!-- Projects -->
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">Latest <span>Projects</span></h1>
+      <div class="work-list">
+        <div class="work project-card">
+          <img src="./docs/assets/img/Screenshot (299).png" alt="" />
+          <div class="layer">
+            <h3 class="project-title">Faishon Factory</h3>
+            <p class="project-description">
+              A product based website that deals in variety of
+              consumer products.
+            </p>
+            <p class="project-description">
+              A collaborative project developed and executed by
+              team of five members in span of 5 days.
+            </p>
+            <h4 class="project-tech-stack">
+              Tech stack used:HTML,CSS,Javascript,Bootstrap
+            </h4>
+
+            <div class="deploy">
+              <a class="project-deployed-link" target="_blank" href="https://steady-cajeta-5aff2b.netlify.app/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/Riteshsalve/silky-toothbrush-7443"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="work project-card">
+          <img src="./docs/assets/img/Screenshot (301).png" alt="" />
+          <div class="layer">
+            <h3 class="project-title">Student Registration System</h3>
+            <p class="project-description">
+              A console-based system with the ability to add,
+              update, fetch and delete the student.
+            </p>
+            <p class="project-description">
+              An individual project developed and executed in
+              span of 5 days.
+            </p>
+            <h4 class="project-tech-stack">
+              Tech stack used: JAVA
+            </h4>
+
+            <div class="deploy">
+              <a class="project-deployed-link" target="_blank" href="https://steady-cajeta-5aff2b.netlify.app/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="project-github-link" target="_blank" href="https://github.com/Shivam6209/even-party-7284"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="work project-card">
+          <img src="./docs/assets/img/Screenshot (299).png" alt="" />
+          <div class="layer">
+            <h3 class="project-title">Faishon Factory</h3>
+            <p class="project-description">
+              A product based website that deals in variety of
+              consumer products.
+            </p>
+            <p class="project-description">
+              A collaborative project developed and executed by
+              team of five members in span of 5 days.
+            </p>
+            <h4 class="project-tech-stack">
+              Tech stack used:HTML,CSS,Javascript,Bootstrap
+            </h4>
+
+            <div class="deploy">
+              <a class="project-deployed-link" target="_blank" href="https://steady-cajeta-5aff2b.netlify.app/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/Riteshsalve/silky-toothbrush-7443"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="work project-card">
+          <img src="./docs/assets/img/Screenshot (301).png" alt="" />
+          <div class="layer">
+            <h3 class="project-title">Student Registration System</h3>
+            <p class="project-description">
+              A console-based system with the ability to add,
+              update, fetch and delete the student.
+            </p>
+            <p class="project-description">
+              An individual project developed and executed in
+              span of 5 days.
+            </p>
+            <h4 class="project-tech-stack">
+              Tech stack used: JAVA
+            </h4>
+
+            <div class="deploy">
+              <a class="project-deployed-link" target="_blank" href="https://steady-cajeta-5aff2b.netlify.app/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="project-github-link" target="_blank" href="https://github.com/Shivam6209/even-party-7284"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <h2 class="sub-title">Contact <span>Me</span></h2>
+      <div class="row">
+        <div class="contact-left">
+          <p id="contact-email">
+            <i class="fa-solid fa-envelope"></i>shivammasaistudent@gmail.com
+          </p>
+          <p id="contact-phone">
+            <i class="fa-solid fa-phone"></i>+91 6209014132
+          </p>
+          <p id="contact-phone">
+            <i class='bx bxs-home'></i>Madhubani, Bihar
+          </p>
+          <div class="social-icons">
+            <a target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/shivam-kumar-jha-004633258/"><i
+                class='bx bxl-linkedin'></i></a>
+            <a target="_blank" id="contact-github" href="https://github.com/Shivam6209"><i
+                class='bx bxl-github'></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <input type="text" placeholder="Name" required />
+            <input type="text" placeholder="Email" required />
+            <textarea name="Message" placeholder="Message" id="" cols="30" rows="7"></textarea>
+            <button class="btn btn2" type="submit">Send Messsage</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by shivam | All Rights Reserved</p>
+    </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script src="./script/script.js"></script>
+  <script>
+    const observer = new IntersectionObserver((entry) => {
+      const ent = entry[0];
+      console.log(ent);
+    });
+    const project = document.getElementById("projects");
+    observer.observe(project);
+
+    function resume() {
+      window.open("./docs/assets/img/Shivam_Jha_Resume.pdf", "_blank");
+    }
+
+    function mover() {
+      document
+        .getElementById("projects")
+        .scrollIntoView({
+          behavior: "smooth"
+        });
+      // window.location.hash = "Projects";
+    }
+
+    function resume2() {
+      window.open("./docs/assets/img/Shivam_Jha_Resume.pdf", "_blank");
+    }
+    let sidemenu = document.getElementById("sidemenu");
+
+    function openMenu() {
+      sidemenu.style.right = 0;
+    }
+
+    function closeMenu() {
+      sidemenu.style.right = "-200px";
+    }
+    // or enable responsive functionality
+    GitHubCalendar(
+        ".calendar",
+        "Shivam6209", {
+          responsive: true
+        }, {
+          proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`);
+          },
+        }
+      )
+      .then((r) => r.text())
+      .catch((e) => console.log(e));
+  </script>
+</body>
+
+</html>
